@@ -1,6 +1,16 @@
-if SHIELD_MY_BOARD
+if SHIELD_QUEFRENCY65_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "quefrency65macro"
+	default "Quefrency 65% Macro"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_QUEFRENCY65_LEFT || SHIELD_QUEFRENCY65_RIGHT
+
+config ZMK_SPLIT
+	default y
 
 endif
