@@ -1,1 +1,5 @@
+config SHIELD_QUEFRENCY65_LEFT
+    def_bool $(shields_list_contains,quefrency65macro_left)
 
+config SHIELD_QUEFRENCY65_RIGHT
+    def_bool $(shields_list_contains,quefrency65macro_right)
