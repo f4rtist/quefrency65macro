@@ -6,6 +6,7 @@ url: https://github.com/keebio/quefrency-rev1-pcb
 requires: [nice_nano_v2]
 features:
   - keys
+  - underglow
 siblings:
   - quefrency65macro_left
   - quefrency65macro_right
