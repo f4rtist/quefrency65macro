@@ -17,7 +17,7 @@
 
 
         col-gpios
-            = <&gpio1 6 GPIO_ACTIVE_HIGH>   //should be Col8 but first column so reordered to c0
+            = <&gpio1 6 GPIO_ACTIVE_HIGH>
             , <&gpio0 29 GPIO_ACTIVE_HIGH>
             , <&gpio0 2 GPIO_ACTIVE_HIGH>
             , <&gpio1 15 GPIO_ACTIVE_HIGH>
