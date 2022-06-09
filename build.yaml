@@ -1,5 +1,5 @@
-- board: [ "nice_nano_v2" ]
-- shield: [ "quefrency65macro_left", "quefrency65macro_right" ]
+board: [ "nice_nano_v2" ]
+shield: [ "quefrency65macro_left", "quefrency65macro_right" ]
 include:
 - board: nice_nano_v2
   shield: quefrency65macro_left
