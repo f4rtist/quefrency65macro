@@ -3,7 +3,7 @@ id: quefrency65macro
 name: Quefrency Rev. 1 65% Macro
 type: shield
 url: https://github.com/keebio/quefrency-rev1-pcb
-requires: [pro_micro]
+requires: [nice_nano_v2]
 features:
   - keys
 siblings:
