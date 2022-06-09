@@ -1,7 +1,7 @@
 if SHIELD_QUEFRENCY65MACRO_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "quefrency65macro"
+	default "Quefrency 65Macro"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
