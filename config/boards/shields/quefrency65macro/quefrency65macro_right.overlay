@@ -6,13 +6,12 @@
 
 #include "quefrency65macro.dtsi"
 
-&default_transform
+&default_transform {
     col-offset = <8>;
+};
 
 / {
-    /* This kscan is for the 65% right half the
-     * 60% layout may require different column and row pins
-     */
+    
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
